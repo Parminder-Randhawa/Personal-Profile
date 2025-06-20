@@ -139,7 +139,7 @@ nav .right a {
     width: 200px;
     padding: 10px 20px;
     margin: 10px;
-    border: 1.5px solid #015494;
+    border: 1.5px solid var(--link-color);
     border-radius: 5px;
 }
 
@@ -152,4 +152,44 @@ nav .right a {
 
 .skills-section .cells .cell span {
     font-size: 20px;
+}
+
+/* S3: Education/Work Experience */
+
+.edu-workexp {
+    padding: 40px 50px;
+    margin: 50px 0;
+    background-color: rgba(167, 167, 167, 0.793);
+}
+
+.edu-workexp h2 {
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+
+.edu-workexp .columns {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.edu-workexp .education {
+    font-size: 20px;
+    flex: 1;
+    background: var(--background-color);
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.edu-workexp .education h3 {
+    color: var(--link-color);
+    font-size: 30px;
+}
+
+.edu-workexp .education img {
+    width: 400px;
+    height: 200px;
+    margin: 10px 0;
+    object-fit: contain;
 }
