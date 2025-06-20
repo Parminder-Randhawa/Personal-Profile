@@ -35,12 +35,12 @@ nav{
 
 nav .left a {
     color: var(--text-color);
-    font-size: 22px;
+    font-size: 28px;
 }
 
 nav .right a {
     color: var(--text-color);
-    font-size: 22px;
+    font-size: 28px;
     margin: 0 10px;
 }
 
@@ -50,8 +50,8 @@ nav .right a {
     justify-content: space-between;
     align-items: center;
     padding: 0 50px;
-    margin: 50px 0;
-    margin-bottom: 100px;
+    margin: 80px 0;
+    margin-bottom: 160px;
     gap: 40px;
 }
 
@@ -94,4 +94,61 @@ nav .right a {
     border-radius: 5%;
 }
 
+/* S1.5: About Me - Scroll Line */
+
+.scroll-line {
+    padding: 0 50px;
+    margin-bottom: 140px;
+}
+
+.scroll-line h2 {
+    text-align: center;
+    font-size: 20px;
+}
+
 /* S2: Skills */
+
+.skills-section {
+    padding: 0 50px;
+    margin-bottom: 100px;
+}
+
+.skills-section h2 {
+    text-align: center;
+    font-size: 35px;
+}
+
+.skills-section .text {
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+
+.skills-section .cells {
+    display: flex;
+    justify-content: center;
+}
+
+.skills-section .cells .cell {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+    width: 200px;
+    padding: 10px 20px;
+    margin: 10px;
+    border: 1.5px solid #015494;
+    border-radius: 5px;
+}
+
+.skills-section .cells .cell img {
+    width: 30px;
+    height: 30px;
+    object-fit: contain;
+    border-radius: 2px;
+}
+
+.skills-section .cells .cell span {
+    font-size: 20px;
+}
