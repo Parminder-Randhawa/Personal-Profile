@@ -159,7 +159,7 @@ nav .right a {
 .edu-workexp {
     padding: 40px 50px;
     margin: 50px 0;
-    background-color: rgba(167, 167, 167, 0.793);
+    background-color: rgba(210, 210, 210, 0.793);
 }
 
 .edu-workexp h2 {
@@ -211,5 +211,9 @@ nav .right a {
 }
 
 .edu-workexp .work-experience .job {
-    margin-bottom: 120px;
+    margin-bottom: 115px;
+}
+
+.edu-workexp .work-experience .job h4{
+    margin-bottom: 10px;
 }
