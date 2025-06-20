@@ -185,6 +185,7 @@ nav .right a {
 .edu-workexp .education h3 {
     color: var(--link-color);
     font-size: 30px;
+    margin-bottom: 30px;
 }
 
 .edu-workexp .education img {
@@ -192,4 +193,23 @@ nav .right a {
     height: 200px;
     margin: 10px 0;
     object-fit: contain;
+}
+
+.edu-workexp .work-experience {
+    font-size: 20px;
+    flex: 1;
+    background: var(--background-color);
+    padding: 20px;
+    border-radius: 8px;
+
+}
+
+.edu-workexp .work-experience h3 {
+    color: var(--link-color);
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.edu-workexp .work-experience .job {
+    margin-bottom: 120px;
 }
